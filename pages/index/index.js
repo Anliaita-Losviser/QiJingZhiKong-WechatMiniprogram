@@ -1,7 +1,7 @@
 // index.js
 const defaultAvatarUrl =
-  "https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia07jQodd2FJGIYQfG0LAJGFxM4FbnQP6yfMxBgJ0F3YRqJCJ1aPAK2dQagdusBZg/0";
-const KEY = "c3b54b08b6f5db0a348da5b9194efe5e";
+  "写你自己的";
+const KEY = "写你自己的";
 const app = getApp();
 import { get, post, baseURL, roomNumber } from "../../utils/request";
 import { formatTime } from "../../utils/util";
