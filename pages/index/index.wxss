@@ -1,0 +1,134 @@
+.head_box {
+  display: flex;
+  /* justify-content: center; */
+  padding-top: 120rpx;
+}
+.head_box > image {
+  margin-left: 40rpx;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.head_box > view {
+  margin-left: 15rpx;
+  font-size: 32rpx;
+  font-weight: 450;
+  line-height: 125rpx;
+}
+.weather_box {
+  height: 264rpx;
+  margin: 38rpx 32rpx 0;
+  box-shadow: 0 8rpx 20rpx 0 rgba(0, 0, 0, 0.3);
+  border-radius: 40rpx;
+}
+.welcome_text {
+  padding-top: 15rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #46a3ff;
+}
+.w50 {
+  width: 50%;
+}
+.location_text {
+  margin-top: 40rpx;
+}
+.temperature_text {
+  font-size: 64rpx;
+  color: black;
+  margin-top: 20rpx;
+}
+.weather_image{
+  width: 224rpx;
+  margin-top: -15rpx;
+  margin-left: 0rpx;
+}
+.mqtt_box {
+  display: flex;
+  padding: 0 20rpx;
+  justify-content: space-between;
+  height: 80rpx;
+  margin: 38rpx 32rpx 0;
+  box-shadow: 0 8rpx 20rpx 0 rgba(0, 0, 0, 0.3);
+  border-radius: 40rpx;
+  font-size: 35rpx;
+  line-height: 80rpx;
+}
+.bottom_style {
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: space-around;
+}
+.van-button,
+.van-button--default,
+.van-button--small {
+  width: 250rpx;
+}
+.subscribe-text {
+  margin-left: 20rpx;
+  font-size: 25rpx;
+}
+.sensors-system-title {
+  margin: 25rpx 0 32rpx 34rpx;
+  font-size: 28rpx;
+  font-weight: 1000;
+}
+.sensors-system {
+  margin: 0 0 32rpx 34rpx;
+  display: flex;
+  flex-wrap: wrap;
+  width: 94%;
+}
+.system-info {
+  display: flex;
+  width: 330rpx;
+  height: 205rpx;
+  box-shadow: 0 8rpx 20rpx 0 rgba(0, 0, 0, 0.3);
+  background-color: white;
+  border-radius: 32rpx;
+  margin: 0 23rpx 15rpx 0;
+}
+.sensors-system-box1 {
+  margin-right: 15rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80rpx;
+}
+.sensors-system-box2 > view {
+  margin-top: 19rpx;
+  margin-left: 15rpx;
+  width: 170rpx;
+}
+.sensors-system-box3 {
+  color: red;
+  font-size: 65rpx;
+  font-weight: 600;
+  line-height: 205rpx;
+}
+.others-system-title {
+  margin: 16rpx 0 32rpx 34rpx;
+  font-size: 28rpx;
+  font-weight: 1000;
+}
+.other-system {
+  padding: 0 20rpx;
+  margin: 28rpx 32rpx 0;
+  box-shadow: 0 8rpx 20rpx 0 rgba(0, 0, 0, 0.3);
+  border-radius: 40rpx;
+  font-size: 35rpx;
+  line-height: 100rpx;
+  background-color: white;
+}
+ec-canvas{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.chart-container{
+  height: 400rpx;
+  margin: 32rpx 32rpx 0;
+  box-shadow: 0 8rpx 20rpx 0 rgba(0, 0, 0, 0.3);
+  border-radius: 20rpx;
+}

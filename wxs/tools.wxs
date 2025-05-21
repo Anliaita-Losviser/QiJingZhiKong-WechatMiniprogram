@@ -1,0 +1,14 @@
+function strIndexOf(weatherText, text) {
+    //str.indexOf("")的值为-1时表示不包含
+    if (weatherText) {
+      // console.log(weatherText, text);
+      if (weatherText.indexOf(text) !== -1) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
+  module.exports = {
+    strIndexOf: strIndexOf,
+  };
